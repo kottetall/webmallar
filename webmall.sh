@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
 # Vägen dit nya mappen ska ligga
-MAL="/c/Users/Taike/Documents/Programmering/web"
+MAL="/<DIN FILVÄG>/Programmering/web"
 
 # där mallen finns
-MALLPLATS="/c/Users/Taike/Documents/Programmering/web/mall"
+MALLPLATS="/<DIN FILVÄG>/Programmering/web/mall"
 
 # Namnet på nya projektet/mappen
 read -p "Vilket namn har projektet? (INGA MELLANRUM I NAMNET) " PROJEKT
@@ -26,6 +26,5 @@ else
     git init
     git add .
     git commit -m "Projektet påbörjat"
-
 fi
 
